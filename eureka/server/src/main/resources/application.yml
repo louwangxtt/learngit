@@ -3,5 +3,5 @@ server:
 
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: false     #是否注册自身到Eureka服务器
+    fetchRegistry: false          #是否从eureka上获取注册信息
